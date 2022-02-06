@@ -4,7 +4,7 @@
 
 ## Description
 * It exposes a post route which can be used to send shows and returns the filetered shows where DRM is true and episode count is more than zero.
-* The resturned response has a response array of objects where each object represent show and have fields image, slug and title.
+* The returned response has an array of objects against response key where each object represents a filtered show and have fields image, slug and title.
 * Find the application live on Heroku [here](https://nitin-mukesh-coding-submission.herokuapp.com/show/drm-enabled-shows).
 
 ## Table of Contents
