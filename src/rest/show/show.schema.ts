@@ -1,4 +1,4 @@
-import Joi from '@hapi/joi';
+import Joi from "@hapi/joi";
 
 const showSchema = Joi.object().keys({
   drm: Joi.boolean().default(false),
@@ -8,12 +8,12 @@ const showSchema = Joi.object().keys({
   }),
   slug: Joi.string().required(),
   title: Joi.string().required(),
-
 });
-const showBodySchema = Joi.object().keys({
-  payload: Joi.array().items(showSchema).required(),
-
-}).options({stripUnknown: true});
+const showBodySchema = Joi.object()
+  .keys({
+    payload: Joi.array().items(showSchema).required(),
+  })
+  .options({ stripUnknown: true });
 
 export const drmEnabledShowSchema = Joi.object().keys({
   body: showBodySchema,

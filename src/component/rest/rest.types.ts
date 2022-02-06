@@ -1,4 +1,4 @@
 export type SimpleResponse = {
-    status: number;
-    json?: Record<string, any>;
-}
+  status: number;
+  json?: Record<string, any>;
+};

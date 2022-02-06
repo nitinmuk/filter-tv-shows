@@ -1,15 +1,15 @@
 export interface ShowRequestBody {
-    payload: Show[];
+  payload: Show[];
 }
 
 interface Image {
-    showImage: string;
+  showImage: string;
 }
 
 export interface Show {
-    slug: string;
-    title: string;
-    drm: boolean;
-    episodeCount: number;
-    image?: Image;
+  slug: string;
+  title: string;
+  drm: boolean;
+  episodeCount: number;
+  image?: Image;
 }
