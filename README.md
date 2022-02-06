@@ -24,6 +24,8 @@ Basic test cases has been implemented for this application.
 ## Technologies
 * Node
 * Express
+* body-parser
+* @hapi/joi
 * Jest
 * Sinon
 
