@@ -1,4 +1,4 @@
-# Filter DRM enabled Shows
+# Filter TV Shows
 [![](https://img.shields.io/badge/License-MIT-green)](#license)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
